@@ -1,23 +1,23 @@
 
 
 h1 {
-    color: antiquewhite;
+    color: #222;
 }
 
 h2 { 
-  color:antiquewhite;
+  color: #222;
 }
 
 h3 {
-  color: antiquewhite;
+  color: #222;
 }
 
 h4 {
-  color:#C1E3FF;
+  color: #222;
 }
 
 a {
-  color: white;
+  color: slateblue;
 }
 
 body {
@@ -25,16 +25,25 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  background: #222;
+  background: whitesmoke;
+}
+
+.border-wrap {
+  max-width: fit-content;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient (to bottom, red, orange, yellow, green, blue, purple);
+  padding: 5px;
 }
 
 .container {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 2rem;
   margin: 5px;
   min-width: 700px;
-  background: linear-gradient(to bottom right, blue, purple);
+  background: whitesmoke;
 }
 
 .item {
@@ -48,6 +57,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding: 2rem;
   margin: 5px;
   width: 300px;
 }
