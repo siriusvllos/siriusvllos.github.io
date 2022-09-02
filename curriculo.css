@@ -1,23 +1,23 @@
 
 
 h1 {
-    color: antiquewhite;
+    color: #222;
 }
 
 h2 { 
-  color:antiquewhite;
+  color: #222;
 }
 
 h3 {
-  color: antiquewhite;
+  color: #222;
 }
 
 h4 {
-  color:#C1E3FF;
+  color: #222;
 }
 
 a {
-  color: white;
+  color: slateblue;
 }
 
 body {
@@ -25,16 +25,27 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  background: #222;
+  background: whitesmoke;
+}
+
+.atras {
+  min-width: 700px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(45deg, darkseagreen, slateblue);
+  padding: 5px;
+}
+
+.frente {
+  background: whitesmoke;
+  padding: 2rem;
 }
 
 .container {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 5px;
   min-width: 700px;
-  background: linear-gradient(to bottom right, blue, purple);
 }
 
 .item {
@@ -48,6 +59,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding: 2rem;
   margin: 5px;
   width: 300px;
 }
