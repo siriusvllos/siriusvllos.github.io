@@ -28,22 +28,24 @@ body {
   background: whitesmoke;
 }
 
-.border-wrap {
-  max-width: fit-content;
+.atras {
+  min-width: 700px;
   padding: 1rem;
   position: relative;
-  background: linear-gradient (to bottom, red, orange, yellow, green, blue, purple);
+  background: linear-gradient(45deg, darkseagreen, slateblue);
   padding: 5px;
+}
+
+.frente {
+  background: whitesmoke;
+  padding: 2rem;
 }
 
 .container {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2rem;
-  margin: 5px;
   min-width: 700px;
-  background: whitesmoke;
 }
 
 .item {
